@@ -1,14 +1,15 @@
 # Project Description
 
 This module extends the image processing functionality included in Sitecore. Greyscale, RotateFlip, ImageCrop, CenterCrop and KeepOrientation are added.
-About
+
+## About
 
 The image processing functionality currently included in Sitecore is compared to other CMS quiet meager. However, there is a pipeline which can be extended. This module extends the existing image processing functionalities of Sitecore by the following operations:
-Greyscale (transforms an image to greyscale)
-RotateFlip (rotates and/or flips an image on the x/y axis)
-Pixel-precise ImageCrop (crops image out of original image, starting point (x/y value) can be defined)
-CenterCrop (crops image out of the center of the original image adjusting max. width or height based on aspect ratio)
-KeepOrientation (rotates the uploaded file automatically using the orientation-flag of Exif information)
+- Greyscale (transforms an image to greyscale)
+- RotateFlip (rotates and/or flips an image on the x/y axis)
+- Pixel-precise ImageCrop (crops image out of original image, starting point (x/y value) can be defined)
+- CenterCrop (crops image out of the center of the original image adjusting max. width or height based on aspect ratio)
+- KeepOrientation (rotates the uploaded file automatically using the orientation-flag of Exif information)
 
 Image processing functionality supported formats are jpg, png and gif.
 
